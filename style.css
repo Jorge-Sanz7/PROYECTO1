@@ -1,0 +1,281 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  #hero img {
+    width: 100%;
+    height: auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .pagano {
+    background-color: #FFDB58;
+  }
+
+  nav {
+    background-color: black;
+    text-align: center;
+  }
+
+  .cibernetico {
+    background: url(img/heroe.jpg)center/cover;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cibernetico::before {
+    content: ;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: ;
+  }
+
+  .informacion {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+  }
+
+
+  .carousel-container {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  .carousel-slide {
+    flex: 0 0 auto;
+    padding: 0 20px;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #prevBtn, #nextBtn {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  #prevBtn {
+    left: 0;
+  }
+  
+  #nextBtn {
+    right: 0;
+  }
+
+  .promo {
+    width: 20px;
+    height: 20px;
+  }
+
+  .imagenmenu {
+    
+    align-content: row;
+  }
+
+  button {
+    color: white;
+    background-color: black;
+   font-size: 20px;
+  }
+
+
+  table {
+    width: 100%;
+    border: black;
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  td {
+    background-color: orange;
+  }
+
+
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .imagen {
+    width: 200px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .imagen img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+  }
+  
+  .imagen:hover img {
+    transform: scale(1.1);
+  }
+
+
+  .redes-sociales {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .redes-sociales h2 {
+    font-size: 24px;
+  }
+  
+  .redes-sociales ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .redes-sociales ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .redes-sociales ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .redes-sociales ul li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .redes-sociales ul li a img:hover {
+    transform: scale(1.1);
+  }
+  
+  .promo {
+    width: 200px;
+    right: 200px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  
+  .promociones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .mapa {
+    width: 500px;
+    right: 500px;
+    justify-content: space-around ;
+    
+  }
+
+
+  .shany {
+    right: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: left ;
+  }
+ .imagenmenu {
+
+ }
+
+
+ .enviar {
+  color: white;
+  text-decoration: none;
+ }
+
+ 
