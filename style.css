@@ -62,6 +62,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap; /* por si el espacio se reduce */
+  size: 5cm;
 }
 
 .tarjeta {
