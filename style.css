@@ -26,11 +26,12 @@ body {
 .main {
   display: flex;
   flex: 1;
+  min-height: 400px;
 }
 
 .sidebar {
   background-color: #3e2723;
-  width: 200px;
+  width: 220px;
   padding: 20px;
 }
 
@@ -60,6 +61,7 @@ body {
   gap: 20px;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap; /* por si el espacio se reduce */
 }
 
 .tarjeta {
@@ -70,6 +72,7 @@ body {
   overflow: hidden;
   text-align: center;
   transition: transform 0.2s ease;
+  flex-shrink: 0;
 }
 
 .tarjeta:hover {
